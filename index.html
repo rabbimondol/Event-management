@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Rabbitz – Discover and join premium travel events around the world. Explore Genting Highlands, Ha Long Bay, Sentosa Island, Coral Island and more." />
+  <title>Rabbitz | Premium Travel Events</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#home" class="logo" id="logo-link">
+        <span class="logo-icon">✈</span>
+        Rabbitz
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+          <li><a href="#events" class="nav-link" id="nav-events">Events</a></li>
+          <li><a href="#about" class="nav-link" id="nav-about">About</a></li>
+          <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#events" class="btn btn-header" id="header-cta">Book Now</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+
+
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fas fa-globe-asia"></i> Premium Travel Experiences</div>
+      <h1 class="hero-title">
+        Explore Amazing Events
+        <span class="highlight">Around the World</span>
+      </h1>
+      <p class="hero-tagline">
+        Discover handpicked travel events — from misty highlands to crystal-clear bays.
+        Every journey with Rabbitz is a story worth telling.
+      </p>
+      <div class="hero-actions">
+        <a href="#events" class="btn btn-primary" id="hero-cta">
+          <i class="fas fa-compass"></i> View Events
+        </a>
+        <a href="#about" class="btn btn-outline" id="hero-learn">
+          Learn More <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <strong>200+</strong>
+          <span>Events</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat-item">
+          <strong>50K+</strong>
+          <span>Travelers</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat-item">
+          <strong>30+</strong>
+          <span>Countries</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <img src="rabbi.jpeg" alt="Beautiful travel destination" class="hero-img" id="hero-img" loading="eager" />
+        <div class="hero-img-badge">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <strong>Verified Events</strong>
+            <span>100% Trusted</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <section class="events-section" id="events">
+    <div class="container">
+      <div class="section-label"><i class="fas fa-fire"></i> Featured Events</div>
+      <h2 class="section-title">
+        Top Travel <span class="gradient-word">Experiences</span>
+      </h2>
+      <p class="section-sub">
+        Carefully curated adventures in Southeast Asia's most breathtaking destinations.
+      </p>
+
+      <div class="events-grid">
+
+        <div class="event-card" id="event-genting">
+          <div class="card-img-wrap">
+            <img src="genting.png" alt="Genting Highlands Malaysia" class="card-img" loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=700&q=80&auto=format&fit=crop'" />
+            <div class="card-badge"><i class="fas fa-map-marker-alt"></i> Malaysia</div>
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-rating"><i class="fas fa-star"></i> 4.9</span>
+              <span class="card-duration"><i class="fas fa-clock"></i> 4 Days</span>
+              <span class="card-price">From $299</span>
+            </div>
+            <h3 class="card-title">Malaysia — Genting Highlands</h3>
+            <p class="card-desc">
+              Escape to the cool misty hills of Genting Highlands. Enjoy world-class entertainment,
+              theme parks, and panoramic highland views above the clouds.
+            </p>
+            <div class="card-tags">
+              <span><i class="fas fa-mountain"></i> Highlands</span>
+              <span><i class="fas fa-snowflake"></i> Cool Weather</span>
+              <span><i class="fas fa-star"></i> Entertainment</span>
+            </div>
+            <a href="#contact" class="btn btn-card" id="btn-genting">
+              Join Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="event-card" id="event-halong">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=700&q=85&auto=format&fit=crop"
+              alt="Ha Long Bay Vietnam" class="card-img" loading="lazy" />
+            <div class="card-badge"><i class="fas fa-map-marker-alt"></i> Vietnam</div>
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-rating"><i class="fas fa-star"></i> 4.8</span>
+              <span class="card-duration"><i class="fas fa-clock"></i> 5 Days</span>
+              <span class="card-price">From $449</span>
+            </div>
+            <h3 class="card-title">Vietnam — Ha Long Bay</h3>
+            <p class="card-desc">
+              Cruise through thousands of dramatic limestone islands rising from emerald waters.
+              A UNESCO World Heritage experience like no other on Earth.
+            </p>
+            <div class="card-tags">
+              <span><i class="fas fa-ship"></i> Cruise</span>
+              <span><i class="fas fa-water"></i> Bay</span>
+              <span><i class="fas fa-landmark"></i> UNESCO</span>
+            </div>
+            <a href="#contact" class="btn btn-card" id="btn-halong">
+              Join Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="event-card" id="event-sentosa">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=700&q=85&auto=format&fit=crop"
+              alt="Sentosa Island Singapore" class="card-img" loading="lazy" />
+            <div class="card-badge"><i class="fas fa-map-marker-alt"></i> Singapore</div>
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-rating"><i class="fas fa-star"></i> 4.7</span>
+              <span class="card-duration"><i class="fas fa-clock"></i> 3 Days</span>
+              <span class="card-price">From $389</span>
+            </div>
+            <h3 class="card-title">Singapore — Sentosa Island</h3>
+            <p class="card-desc">
+              Sun, sand, and world-class fun on Singapore's famous Sentosa Island. Enjoy
+              luxury resorts, theme parks, beaches, and vibrant nightlife.
+            </p>
+            <div class="card-tags">
+              <span><i class="fas fa-umbrella-beach"></i> Beach</span>
+              <span><i class="fas fa-hotel"></i> Resorts</span>
+              <span><i class="fas fa-gamepad"></i> Activities</span>
+            </div>
+            <a href="#contact" class="btn btn-card" id="btn-sentosa">
+              Join Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="event-card" id="event-coral">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=700&q=85&auto=format&fit=crop"
+              alt="Coral Island Thailand" class="card-img" loading="lazy" />
+            <div class="card-badge"><i class="fas fa-map-marker-alt"></i> Thailand</div>
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-rating"><i class="fas fa-star"></i> 4.9</span>
+              <span class="card-duration"><i class="fas fa-clock"></i> 4 Days</span>
+              <span class="card-price">From $329</span>
+            </div>
+            <h3 class="card-title">Thailand — Coral Island</h3>
+            <p class="card-desc">
+              Dive into crystal-clear turquoise waters and pristine white sandy beaches.
+              Coral Island is the ultimate beach adventure escape in Thailand.
+            </p>
+            <div class="card-tags">
+              <span><i class="fas fa-fish"></i> Snorkeling</span>
+              <span><i class="fas fa-sun"></i> Sunny</span>
+              <span><i class="fas fa-anchor"></i> Diving</span>
+            </div>
+            <a href="#contact" class="btn btn-card" id="btn-coral">
+              Join Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="container about-inner">
+      <div class="about-visual-col">
+        <div class="about-img-stack">
+          <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=85&auto=format&fit=crop"
+            alt="Travel adventure" class="about-img about-img-main" id="about-img-main" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&q=80&auto=format&fit=crop"
+            alt="Journey experience" class="about-img about-img-sub" id="about-img-sub" loading="lazy" />
+          <div class="about-float-card">
+            <i class="fas fa-trophy"></i>
+            <div>
+              <strong>#1 Event Platform</strong>
+              <span>Since 2018</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content-col">
+        <div class="section-label"><i class="fas fa-heart"></i> Who We Are</div>
+        <h2 class="section-title left-align">
+          Your Gateway to <span class="gradient-word">Premium</span> Travel Events
+        </h2>
+        <p class="about-text">
+          At <strong>Rabbitz</strong>, we believe every journey should be unforgettable.
+          We specialize in curating world-class travel events that blend adventure,
+          culture, and luxury — giving you memories that last a lifetime.
+        </p>
+        <p class="about-text">
+          From the misty peaks of Genting Highlands to the turquoise waters of
+          Coral Island, our expert team handpicks only the finest destinations and
+          experiences for our community of passionate travelers.
+        </p>
+
+        <div class="about-pillars">
+          <div class="pillar" id="pillar-1">
+            <div class="pillar-icon"><i class="fas fa-gem"></i></div>
+            <div>
+              <h4>Premium Quality</h4>
+              <p>Handpicked luxury experiences</p>
+            </div>
+          </div>
+          <div class="pillar" id="pillar-2">
+            <div class="pillar-icon"><i class="fas fa-shield-alt"></i></div>
+            <div>
+              <h4>Safe & Trusted</h4>
+              <p>Verified and secure bookings</p>
+            </div>
+          </div>
+          <div class="pillar" id="pillar-3">
+            <div class="pillar-icon"><i class="fas fa-headset"></i></div>
+            <div>
+              <h4>24/7 Support</h4>
+              <p>Always here for your journey</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#events" class="btn btn-primary" id="about-cta">
+          <i class="fas fa-compass"></i> Explore Events
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-bg-shape"></div>
+    <div class="container">
+      <div class="section-label center"><i class="fas fa-paper-plane"></i> Get In Touch</div>
+      <h2 class="section-title center">
+        Start Your <span class="gradient-word">Adventure</span> Today
+      </h2>
+      <p class="section-sub center">
+        Have questions about an event? Want a custom package? We'd love to hear from you.
+      </p>
+
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>Reach out to our team and we'll craft the perfect travel experience just for you.</p>
+
+          <div class="contact-detail" id="contact-email">
+            <div class="detail-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email Us</strong>
+              <span>rabbimondol@yahoo.com</span>
+            </div>
+          </div>
+          <div class="contact-detail" id="contact-phone">
+            <div class="detail-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <strong>Call Us</strong>
+              <span>+8801764983880</span>
+            </div>
+          </div>
+          <div class="contact-detail" id="contact-location">
+            <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Location</strong>
+              <span>Bogura,Bangladesh</span>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="https://www.facebook.com/share/17TskGMTUg/?mibextid=wwXIfr" class="social-btn" id="social-fb"
+              aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/rabbi.mondol.offical?igsh=aGxwZmJib2Z5c3Bo&utm_source=qr"
+              class="social-btn" id="social-ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="fname"><i class="fas fa-user"></i> Your Name</label>
+            <input type="text" id="fname" placeholder="e.g. Alex Rahman" required />
+          </div>
+          <div class="form-group">
+            <label for="femail"><i class="fas fa-envelope"></i> Email Address</label>
+            <input type="email" id="femail" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="fdestination"><i class="fas fa-map-marked-alt"></i> Interested Event</label>
+            <select id="fdestination">
+              <option value="">— Select a destination —</option>
+              <option value="genting">Malaysia – Genting Highlands</option>
+              <option value="halong">Vietnam – Ha Long Bay</option>
+              <option value="sentosa">Singapore – Sentosa Island</option>
+              <option value="coral">Thailand – Coral Island</option>
+              <option value="other">Other / Custom Package</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fmessage"><i class="fas fa-comment-dots"></i> Message</label>
+            <textarea id="fmessage" rows="4" placeholder="Tell us about your travel plans or questions..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width" id="submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note">We reply within 24 hours. No spam, promise! 🐰</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand-col">
+          <a href="#home" class="logo footer-logo" id="footer-logo">
+            <span class="logo-icon">✈</span> Rabbitz
+          </a>
+          <p class="footer-tagline">
+            Your world, your adventure,one premium event at a time.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/share/17TskGMTUg/?mibextid=wwXIfr" id="f-fb" aria-label="Facebook"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/rabbi.mondol.offical?igsh=aGxwZmJib2Z5c3Bo&utm_source=qr" id="f-ig"
+              aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home" id="fl-home">Home</a></li>
+            <li><a href="#events" id="fl-events">Events</a></li>
+            <li><a href="#about" id="fl-about">About</a></li>
+            <li><a href="#contact" id="fl-contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Destinations</h4>
+          <ul>
+            <li><a href="#events" id="fl-genting">Genting Highlands</a></li>
+            <li><a href="#events" id="fl-halong">Ha Long Bay</a></li>
+            <li><a href="#events" id="fl-sentosa">Sentosa Island</a></li>
+            <li><a href="#events" id="fl-coral">Coral Island</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#contact" id="fl-faq">FAQ</a></li>
+            <li><a href="#contact" id="fl-terms">Terms of Service</a></li>
+            <li><a href="#contact" id="fl-privacy">Privacy Policy</a></li>
+            <li><a href="#contact" id="fl-refund">Refund Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 <strong>Rabbitz</strong>. All rights reserved. Made with <i class="fas fa-heart"
+            style="color:#f97316"></i> for travelers.</p>
+        <p class="footer-credit">Crafted with passion for adventure ✈</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="back-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (!target) return;
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+        nav.classList.remove('nav-open');
+        hamburger.classList.remove('active');
+      });
+    });
+
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+      backTop.classList.toggle('visible', window.scrollY > 400);
+      updateActiveNav();
+    });
+
+    function updateActiveNav() {
+      const sections = ['home', 'events', 'about', 'contact'];
+      let current = '';
+      sections.forEach(id => {
+        const el = document.getElementById(id);
+        if (el && window.scrollY >= el.offsetTop - 120) current = id;
+      });
+      document.querySelectorAll('.nav-link').forEach(l => {
+        l.classList.toggle('active', l.getAttribute('href') === '#' + current);
+      });
+    }
+
+    const nav = document.getElementById('nav');
+    const hamburger = document.getElementById('hamburger');
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+      hamburger.classList.toggle('active');
+    });
+
+    const backTop = document.getElementById('back-top');
+    backTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(
+      '.event-card, .pillar, .about-img-main, .about-img-sub, .about-float-card, .contact-info, .contact-form, .hero-stats'
+    ).forEach(el => {
+      el.classList.add('reveal-el');
+      revealObserver.observe(el);
+    });
+
+    document.getElementById('contact-form').addEventListener('submit', e => {
+      e.preventDefault();
+      const btn = document.getElementById('submit-btn');
+      const orig = btn.innerHTML;
+      btn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
+      btn.style.background = 'linear-gradient(135deg, #22c55e, #16a34a)';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.innerHTML = orig;
+        btn.style.background = '';
+        btn.disabled = false;
+        e.target.reset();
+      }, 3500);
+    });
+
+    document.querySelectorAll('.event-card').forEach((card, i) => {
+      card.style.transitionDelay = `${i * 0.1}s`;
+    });
+  </script>
+
+</body>
+
+</html>
